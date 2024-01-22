@@ -4,10 +4,10 @@ public class circulo {
 
     public circulo (double radio) {
 
-    if (radio < 0){
-       this.radio = 0;
-    } else {
-        this.radio = radio;
+        if (radio < 0){
+            this.radio = 0;
+        } else {
+            this.radio = radio;
         }
     }
 
